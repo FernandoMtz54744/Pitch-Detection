@@ -18,8 +18,8 @@ export default function Comparador() {
       <h1>Método Simple: {notaSimple}</h1>
       <h1>Método con FFT: {notaFFT}</h1>
       <hr />
-      <h2>Tiempo promedio con método simple: {count==0?"0":(sumSimple/count).toFixed(4)} ms</h2>
-      <h2>Tiempo promedio con método FFT: {count==0?"0":(sumFFT/count).toFixed(4)} ms</h2>
+      <h2>Tiempo promedio con método simple: {count===0?"0":(sumSimple/count).toFixed(4)} ms</h2>
+      <h2>Tiempo promedio con método FFT: {count===0?"0":(sumFFT/count).toFixed(4)} ms</h2>
       <h3>Promedio de {count} autocorrelaciones realizadas</h3>
     </>
   )
